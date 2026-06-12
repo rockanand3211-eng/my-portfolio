@@ -60,8 +60,8 @@ export default function Navbar() {
 
         <div className="hidden items-center gap-3 md:flex">
           <a
-            href="/resume.pdf"
-            download
+            href="/Anand%20resume%20updated.docx"
+            download="Anand resume updated.docx"
             className="inline-flex items-center gap-2 rounded-lg border border-indigo-500/50 bg-indigo-500/10 px-4 py-2 text-sm font-semibold text-indigo-300 transition-all duration-300 ease-in-out hover:border-indigo-400/70 hover:bg-indigo-500/20 hover:text-indigo-200"
           >
             <FiDownload className="h-4 w-4" aria-hidden />
@@ -109,8 +109,8 @@ export default function Navbar() {
           ))}
           <li className="pt-2">
             <a
-              href="/resume.pdf"
-              download
+              href="/Anand%20resume%20updated.docx"
+              download="Anand resume updated.docx"
               onClick={handleNavClick}
               className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-indigo-500/50 bg-indigo-500/10 px-4 py-2.5 text-sm font-semibold text-indigo-300 transition-all duration-300 ease-in-out hover:border-indigo-400/70 hover:bg-indigo-500/20"
             >
